@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/3f62d016a5.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- navigation start -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">
+            <img src="assets/images/logo.jpg" width="30" height="30" alt="">
+          </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gros.html">Grossary</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Fruites</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">vegtable</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Stationary</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Register</a>
+              </li>
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li> -->
+            <!-- <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li> -->
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    <!-- navigation end -->
+    <!---banner start-->
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="assets/images/banner1.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="assets/images/banner3.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="assets/images/banner4.jpg" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    <!--banner end-->
+    <!--About content-->
+    <div class="container">
+        <h2>ABOUT OUR SHOP</h2>
+        <div class="row">
+            <div class="col-lg-6 about">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi aperiam est suscipit officiis et voluptatem rem quia numquam, eius quae. Expedita facere obcaecati eaque deleniti blanditiis, atque quis nulla vero minima? Harum pariatur ducimus quis, totam neque provident, error earum tenetur repudiandae repellendus ullam a itaque quaerat dolore voluptatem laborum autem. Similique molestias culpa cupiditate assumenda fugiat porro? Illo ullam asperiores recusandae, eos aperiam laboriosam nihil deleniti autem sint accusamus in a architecto doloribus ipsum incidunt illum provident ea quos! Corporis laborum error tempore magni ex nihil amet ipsum autem fuga quod consectetur omnis reprehenderit, id dignissimos officiis deserunt. Praesentium!</p>
+
+            </div>
+            <div class="col-lg-6 image">
+                <img src="assets/images/about.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!--About content end-->
+    <div class="conatiner-fluid register">
+        <div class="row">
+            <div class="col-lg-6 border">
+                <h2>REGISTER NOW</h2>
+                <center>
+                <i class="fa fa-user-plus" aria-hidden="true"></i>
+            </center>
+            <br>
+                <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#exampleModal">Register Now</button>
+            <br/>
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Register Now</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group row">
+                                  <label for="inputEmail3" class="col-sm-2 col-form-label">Name</label>
+                                  <div class="col-sm-10">
+                                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                                  </div>
+                                </div>
+                                <div class="form-group row">
+                                  <label for="inputPassword3" class="col-sm-2 col-form-label">Email ID</label>
+                                  <div class="col-sm-10">
+                                    <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                                  </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                                    <div class="col-sm-10">
+                                      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                                    </div>
+                                  </div>
+                                  <div class="form-group row">
+                                    <label for="inputPassword3" class="col-sm-2 col-form-label">Confirm Password</label>
+                                    <div class="col-sm-10">
+                                      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                                    </div>
+                                  </div>
+                               
+                                
+                                <div class="form-group row">
+                                  <div class="col-sm-10">
+                                    <button type="submit" class="btn btn-primary">Sign in</button>
+                                  </div>
+                                </div>
+                              </form>
+                        </div>
+                    
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-6">
+                <h2>LOGIN</h2>
+                <center>
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                </center>
+                <br>
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal1">Success</button>
+                
+                <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Login Now</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group row">
+                                  <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                                  <div class="col-sm-10">
+                                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                                  </div>
+                                </div>
+                                <div class="form-group row">
+                                  <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                                  <div class="col-sm-10">
+                                    <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                                  </div>
+                                </div>
+                                <!-- <fieldset class="form-group">
+                                  <div class="row">
+                                    <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
+                                    <div class="col-sm-10">
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                        <label class="form-check-label" for="gridRadios1">
+                                          First radio
+                                        </label>
+                                      </div>
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                        <label class="form-check-label" for="gridRadios2">
+                                          Second radio
+                                        </label>
+                                      </div>
+                                      <div class="form-check disabled">
+                                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
+                                        <label class="form-check-label" for="gridRadios3">
+                                          Third disabled radio
+                                        </label>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </fieldset> -->
+                                <!-- <div class="form-group row">
+                                  <div class="col-sm-2">Checkbox</div>
+                                  <div class="col-sm-10">
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                      <label class="form-check-label" for="gridCheck1">
+                                        Example checkbox
+                                      </label>
+                                    </div>
+                                  </div>
+                                </div> -->
+                                <div class="form-group row">
+                                  <div class="col-sm-10">
+                                    <button type="submit" class="btn btn-primary">Sign in</button>
+                                  </div>
+                                </div>
+                              </form>
+                        </div>
+                        <!-- <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div> -->
+                      </div>
+                    </div>
+                  </div>
+            </div>
+    
+        </div>
+    </div>
+    <!---Products-->
+<div class="container">
+    <h2>OUR PRODUCTS</h2>
+    <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="assets/images/gros.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Grossary</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <a href="gros.html" class="btn btn-primary btn-lg" role="button" aria-disabled="true">view more</a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="assets/images/fruit.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Fruits</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+         
+            <a href="#" class="btn btn-primary btn-lg" role="button" aria-disabled="true">view more</a>  
+        </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="assets/images/veg.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">vegtables</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <a href="#" class="btn btn-primary btn-lg" role="button" aria-disabled="true">view more</a>
+          </div>
+        </div>
+      </div>
+</div>
+    <!--products end-->
+    <!---Footer-->
+    <div class="container-fluid bg-dark text-white p-3 m-0">
+        <h2>Contact Us</h2>
+        <div class="row">
+          
+<div class="col-lg-6 contact">
+  
+    <ul>
+        <li><i class="fa fa-map-marker" aria-hidden="true"></i>xxx street,yyy city</li>
+        <li><i class="fa fa-envelope" aria-hidden="true"></i>hkjhkjk@gmail.com</li>
+        <li><i class="fa fa-mobile" aria-hidden="true"></i>9800990990</li>
+    </ul>
+    <ul class="social">
+        <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+        <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+        <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+        <li><i class="fa fa-linkedin" aria-hidden="true"></i></li>
+    </ul>
+</div>
+<div class="col-lg-6">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15665.253163624893!2d76.9620981!3d11.0151044!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba858ffb7daaad1%3A0xc4b4c63def0cadfd!2sLivewire%20Software%20Training%20Centre!5e0!3m2!1sen!2sin!4v1685011152863!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+        </div>
+    </div>
+
+    <!--Footer end-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
